@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("mysql://root:3aCcEhg42gD3226aF4b2a3G4E3bahceH@viaduct.proxy.rlwy.net:46711/railway")
+  url      = env("mysql://root:Moises1234*@localhost:3360/quioscoapp")
 }
 
 model Producto {
