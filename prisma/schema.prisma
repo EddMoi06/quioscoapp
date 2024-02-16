@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("mysql://root:Moises1234*@localhost:3360/quioscoapp")
+  url      = env("DATABASE_URL")
 }
 
 model Producto {
